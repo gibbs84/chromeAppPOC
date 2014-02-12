@@ -8,8 +8,8 @@ chrome.app.runtime.onLaunched.addListener(function() {
   // Center window on screen.
   var screenWidth = screen.availWidth;
   var screenHeight = screen.availHeight;
-  var width = 500;
-  var height = 300;
+  var width = 333;
+  var height = 352;
 
   chrome.app.window.create('activate.html', {
     id: "activateID",
